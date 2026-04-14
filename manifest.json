@@ -1,0 +1,21 @@
+{
+  "name": "Simple Bar Chart",
+  "description": "A basic community visualization for Looker Studio",
+  "organization": "Brendan",
+  "logoUrl": "https://www.gstatic.com/images/branding/product/1x/data_studio_64dp.png",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "supportUrl": "https://example.com/support",
+  "devMode": true,
+  "components": [
+    {
+      "id": "simpleBarChart",
+      "name": "Simple Bar Chart",
+      "iconUrl": "https://www.gstatic.com/images/branding/product/1x/data_studio_64dp.png",
+      "resource": {
+        "js": "https://bnemeth-test.github.io/looker-viz/viz-codelab.js",
+        "css": "https://bnemeth-test.github.io/looker-viz/viz-codelab.css"
+      },
+      "config": "https://bnemeth-test.github.io/looker-viz/viz-codelab.json"
+    }
+  ]
+}

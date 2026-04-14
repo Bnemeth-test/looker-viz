@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "dimensions",
+      "label": "Dimension",
+      "elements": [
+        { "type": "DIMENSION", "id": "dimension" }
+      ]
+    },
+    {
+      "id": "metrics",
+      "label": "Metric",
+      "elements": [
+        { "type": "METRIC", "id": "metric" }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "barColor",
+      "label": "Bar color",
+      "elements": [
+        {
+          "type": "COLOR",
+          "id": "fillColor",
+          "label": "Fill color",
+          "defaultValue": "#4285F4"
+        }
+      ]
+    }
+  ]
+}
